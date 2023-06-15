@@ -22,7 +22,7 @@ struct ContentView: View {
                         Image("logo")
                             .resizable()
                             .frame(width: 200, height: 250)
-                            .padding(.top, 150)
+                            .padding(.top, 90)
 
                         Text("Welcome to Social Serenity!")
                             .font(.largeTitle)
@@ -30,8 +30,13 @@ struct ContentView: View {
                             .foregroundColor(Color("myDarkGreen"))
                             .multilineTextAlignment(.center)
                             .padding(.horizontal)
+                            Spacer()
         //                    .padding(.top, 100.0)
-                    
+                        Text("We aim to help identify and navigate both positive and negative emotions, causing a greater range of individuals with both knowledge and tools for understanding themselves.")
+                            .font(.title3)
+                            .foregroundColor(Color("myDarkGreen"))
+                            .multilineTextAlignment(.center)
+                            .padding(.horizontal, 20)
                         NavigationLink(destination: HomePage()) {
                         Text("Next")
                         }

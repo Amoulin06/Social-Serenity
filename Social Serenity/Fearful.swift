@@ -88,7 +88,7 @@ struct Fearful: View {
                                         .font(.title2)
                                         .fontWeight(.medium)
                                         .foregroundColor(.white)
-                                    Link("Playlist", destination: URL(string: "https://open.spotify.com/playlist/37i9dQZF1EVJSvZp5AOML2?si=d52e1a16e5844bab")!)
+                                    Link("Playlist", destination: URL(string: "https://open.spotify.com/playlist/5Is9fqBeOimEuHhc529wrV?si=32e7958b9d114d32")!)
                                         .foregroundColor(Color("darkMutPurp"))
                                         .font(.largeTitle)
                                 }

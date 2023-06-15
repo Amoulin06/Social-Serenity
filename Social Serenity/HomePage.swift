@@ -7,7 +7,7 @@ struct HomePage: View {
                     .ignoresSafeArea()
                 //                Color(.black)
                 VStack {
-                    Text("Welcome Back!")
+                    Text("Welcome!")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .foregroundColor(Color("myDarkBlue"))

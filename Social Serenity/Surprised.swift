@@ -88,7 +88,7 @@ struct Surprised: View {
                                         .font(.title2)
                                         .fontWeight(.medium)
                                         .foregroundColor(.white)
-                                    Link("Playlist", destination: URL(string: "https://open.spotify.com/playlist/37i9dQZF1EVJSvZp5AOML2?si=d52e1a16e5844bab")!)
+                                    Link("Playlist", destination: URL(string: "https://open.spotify.com/playlist/7lP9dVzRbxGVWw21G0UrV8?si=26b27b7c5b594c23")!)
                                         .foregroundColor(Color("darkVibPurp"))
                                         .font(.largeTitle)
                                 }
