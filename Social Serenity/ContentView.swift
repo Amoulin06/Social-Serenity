@@ -22,26 +22,23 @@ struct ContentView: View {
                         Image("logo")
                             .resizable()
                             .frame(width: 200, height: 250)
+                            .padding(.top, 150)
+
                         Text("Welcome to Social Serenity!")
-                            .font(.title)
+                            .font(.largeTitle)
                             .fontWeight(.bold)
                             .foregroundColor(Color("myDarkGreen"))
                             .multilineTextAlignment(.center)
                             .padding(.horizontal)
         //                    .padding(.top, 100.0)
-                        Text("Name")
-                            .padding(.top, 50.0)
-                        TextField("Insert Name Here", text: $name )
-                            .padding(.leading, 86.0)
-                            .frame(width: 300.0, height: 50.0)
-                            .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
-                        Text("Today's Date")
-                            .padding(.top, 61.0)
-                        DatePicker(selection: /*@START_MENU_TOKEN@*/.constant(Date())/*@END_MENU_TOKEN@*/, label: { })
-                            .padding(.trailing, 82.0)
+                    
                         NavigationLink(destination: HomePage()) {
                         Text("Next")
                         }
+                        .buttonStyle(.borderedProminent)
+                        .font(.largeTitle)
+                        .tint(Color("myDarkGreen"))
+                        .foregroundColor(.white)
                         .padding(.top, 100.0)
                       
                         

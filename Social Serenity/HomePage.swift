@@ -38,7 +38,7 @@ struct HomePage: View {
                                     .resizable()
                                     .frame(width:150.0, height:150.0)
                             }
-                            NavigationLink(destination: Mad()) {
+                            NavigationLink(destination: Angry()) {
                                 Image("angry")
                                     .resizable()
                                     .frame(width:150.0, height:150.0)
