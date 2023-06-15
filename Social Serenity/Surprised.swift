@@ -100,7 +100,8 @@ struct Surprised: View {
                     }
                     .frame(height: 425)
                     .cornerRadius(15)
-                    Button("How does this relate to climate change?    ") {
+                    NavigationLink(destination: SUCC()) {
+                        Text("How does this relate to climate change?")
                     }
                     .padding(.horizontal, 20)
                     .buttonStyle(.borderedProminent)

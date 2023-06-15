@@ -5,7 +5,7 @@ struct HomePage: View {
             ZStack {
                 Color(red: 210/255, green:228/255, blue:238/255)
                     .ignoresSafeArea()
-//                Color(.black)
+                //                Color(.black)
                 VStack {
                     Text("Welcome Back!")
                         .font(.largeTitle)
@@ -23,11 +23,14 @@ struct HomePage: View {
                         HStack {
                             NavigationLink(destination: Happy()) {
                                 Image("happy")
-                                    .resizable()            .frame(width:150.0, height:150.0)
-                                
+                                    .resizable()
+                                    .frame(width:150.0, height:150.0)
                                 NavigationLink(destination: Sad()) {
                                     Image("sad")
                                         .resizable()
+                                    navigationTitle(" ")
+                                    .navigationBarTitleDisplayMode(.inline)
+                                    .navigationBarHidden(true)
                                         .frame(width:150.0, height:150.0)
                                 }
                             }
@@ -56,20 +59,26 @@ struct HomePage: View {
                                     .frame(width:150.0, height:150.0)
                             }
                         }
-                        NavigationLink(destination: Surprised()) {
-                            Image("suprised")
-                                .resizable()
-                                .frame(width:150.0, height:150.0)
+                        HStack{
+                            NavigationLink(destination: Surprised()) {
+                                Image("suprised")
+                                    .resizable()
+                                    .frame(width:150.0, height:150.0)
+                                NavigationLink(destination: Journal()){
+                                    Image("journal")
+                                        .resizable()
+                                        .frame(width:150.0, height:150.0)
+                                }
+                            }
+                            
                         }
                     }
-                    
                 }
+                
             }
         }
-        
     }
 }
-    
     struct HomePage_Previews: PreviewProvider {
         static var previews: some View {
             HomePage()

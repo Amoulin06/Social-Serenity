@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8EDB5F7C2A3AC555009F3FCF /* Angry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDB5F7B2A3AC555009F3FCF /* Angry.swift */; };
+		BD94158A2A3B5BD800386B76 /* HCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9415892A3B5BD800386B76 /* HCC.swift */; };
+		BD94158C2A3B5BE500386B76 /* SCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD94158B2A3B5BE500386B76 /* SCC.swift */; };
+		BD94158E2A3B5BEF00386B76 /* ACC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD94158D2A3B5BEF00386B76 /* ACC.swift */; };
+		BD9415902A3B5C1A00386B76 /* SUCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD94158F2A3B5C1A00386B76 /* SUCC.swift */; };
+		BD9415922A3B5C2600386B76 /* FCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9415912A3B5C2600386B76 /* FCC.swift */; };
+		BD9415942A3B5C3200386B76 /* BCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9415932A3B5C3200386B76 /* BCC.swift */; };
+		BD9415962A3B5C4000386B76 /* DCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9415952A3B5C4000386B76 /* DCC.swift */; };
+		BD9415982A3B763300386B76 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9415972A3B763300386B76 /* Journal.swift */; };
 		BDE8B5592A3A093300ACD7E8 /* Social_SerenityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8B5582A3A093300ACD7E8 /* Social_SerenityApp.swift */; };
 		BDE8B55B2A3A093300ACD7E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8B55A2A3A093300ACD7E8 /* ContentView.swift */; };
 		BDE8B55D2A3A093400ACD7E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE8B55C2A3A093400ACD7E8 /* Assets.xcassets */; };
@@ -23,6 +31,14 @@
 
 /* Begin PBXFileReference section */
 		8EDB5F7B2A3AC555009F3FCF /* Angry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angry.swift; sourceTree = "<group>"; };
+		BD9415892A3B5BD800386B76 /* HCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCC.swift; sourceTree = "<group>"; };
+		BD94158B2A3B5BE500386B76 /* SCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCC.swift; sourceTree = "<group>"; };
+		BD94158D2A3B5BEF00386B76 /* ACC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACC.swift; sourceTree = "<group>"; };
+		BD94158F2A3B5C1A00386B76 /* SUCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUCC.swift; sourceTree = "<group>"; };
+		BD9415912A3B5C2600386B76 /* FCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCC.swift; sourceTree = "<group>"; };
+		BD9415932A3B5C3200386B76 /* BCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCC.swift; sourceTree = "<group>"; };
+		BD9415952A3B5C4000386B76 /* DCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCC.swift; sourceTree = "<group>"; };
+		BD9415972A3B763300386B76 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
 		BDE8B5552A3A093300ACD7E8 /* Social Serenity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Serenity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE8B5582A3A093300ACD7E8 /* Social_SerenityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_SerenityApp.swift; sourceTree = "<group>"; };
 		BDE8B55A2A3A093300ACD7E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,13 +86,21 @@
 				BDE8B5582A3A093300ACD7E8 /* Social_SerenityApp.swift */,
 				BDE8B55A2A3A093300ACD7E8 /* ContentView.swift */,
 				BDE8B5662A3A0A3100ACD7E8 /* HomePage.swift */,
+				BD9415972A3B763300386B76 /* Journal.swift */,
 				BDE8B5682A3A0CFF00ACD7E8 /* Happy.swift */,
+				BD9415892A3B5BD800386B76 /* HCC.swift */,
 				BDE8B56A2A3A0D0900ACD7E8 /* Sad.swift */,
+				BD94158B2A3B5BE500386B76 /* SCC.swift */,
 				8EDB5F7B2A3AC555009F3FCF /* Angry.swift */,
+				BD94158D2A3B5BEF00386B76 /* ACC.swift */,
 				BDE8B56E2A3A0D2000ACD7E8 /* Surprised.swift */,
+				BD94158F2A3B5C1A00386B76 /* SUCC.swift */,
 				BDE8B5702A3A0D2C00ACD7E8 /* Fearful.swift */,
+				BD9415912A3B5C2600386B76 /* FCC.swift */,
 				BDE8B5722A3A0D3800ACD7E8 /* Bad.swift */,
+				BD9415932A3B5C3200386B76 /* BCC.swift */,
 				BDE8B5742A3A0D4100ACD7E8 /* Disgusted.swift */,
+				BD9415952A3B5C4000386B76 /* DCC.swift */,
 				BDE8B55C2A3A093400ACD7E8 /* Assets.xcassets */,
 				BDE8B55E2A3A093400ACD7E8 /* Preview Content */,
 			);
@@ -162,12 +186,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDE8B5692A3A0CFF00ACD7E8 /* Happy.swift in Sources */,
+				BD94158C2A3B5BE500386B76 /* SCC.swift in Sources */,
+				BD94158E2A3B5BEF00386B76 /* ACC.swift in Sources */,
+				BD9415902A3B5C1A00386B76 /* SUCC.swift in Sources */,
 				BDE8B56B2A3A0D0900ACD7E8 /* Sad.swift in Sources */,
 				8EDB5F7C2A3AC555009F3FCF /* Angry.swift in Sources */,
+				BD94158A2A3B5BD800386B76 /* HCC.swift in Sources */,
 				BDE8B55B2A3A093300ACD7E8 /* ContentView.swift in Sources */,
+				BD9415922A3B5C2600386B76 /* FCC.swift in Sources */,
 				BDE8B5672A3A0A3100ACD7E8 /* HomePage.swift in Sources */,
 				BDE8B5712A3A0D2C00ACD7E8 /* Fearful.swift in Sources */,
+				BD9415982A3B763300386B76 /* Journal.swift in Sources */,
+				BD9415962A3B5C4000386B76 /* DCC.swift in Sources */,
 				BDE8B5592A3A093300ACD7E8 /* Social_SerenityApp.swift in Sources */,
+				BD9415942A3B5C3200386B76 /* BCC.swift in Sources */,
 				BDE8B5732A3A0D3800ACD7E8 /* Bad.swift in Sources */,
 				BDE8B5752A3A0D4100ACD7E8 /* Disgusted.swift in Sources */,
 				BDE8B56F2A3A0D2000ACD7E8 /* Surprised.swift in Sources */,
