@@ -25,14 +25,12 @@ struct HomePage: View {
                                 Image("happy")
                                     .resizable()
                                     .frame(width:150.0, height:150.0)
-                                NavigationLink(destination: Sad()) {
-                                    Image("sad")
-                                        .resizable()
-                                    navigationTitle(" ")
-                                    .navigationBarTitleDisplayMode(.inline)
-                                    .navigationBarHidden(true)
-                                        .frame(width:150.0, height:150.0)
-                                }
+                            }
+                            
+                            NavigationLink(destination: Sad()) {
+                                Image("sad")
+                                    .resizable()
+                                    .frame(width:150.0, height:150.0)
                             }
                         }
                         HStack{
