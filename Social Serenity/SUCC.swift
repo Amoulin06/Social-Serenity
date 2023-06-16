@@ -13,7 +13,7 @@ struct SUCC: View {
             Color("lightVibPurp")
                 .ignoresSafeArea()
             VStack {
-              Text("Defintion of")
+              Text("Definition of")
                     .font(.largeTitle)
                 Text("SURPRISED")
                     .font(.largeTitle)

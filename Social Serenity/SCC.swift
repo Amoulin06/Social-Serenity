@@ -13,7 +13,7 @@ struct SCC: View {
             Color("myLightBlue")
                 .ignoresSafeArea()
             VStack {
-              Text("Defintion of")
+              Text("Definition of")
                     .font(.largeTitle)
                 Text("SAD")
                     .font(.largeTitle)

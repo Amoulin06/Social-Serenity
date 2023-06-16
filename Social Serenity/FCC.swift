@@ -13,7 +13,7 @@ struct FCC: View {
             Color("lightMutPurp")
                 .ignoresSafeArea()
             VStack {
-              Text("Defintion of")
+              Text("Definition of")
                     .font(.largeTitle)
                 Text("FEARFUL")
                     .font(.largeTitle)

@@ -13,7 +13,7 @@ struct HCC: View {
             Color("myLightYellow")
                 .ignoresSafeArea()
             VStack {
-              Text("Defintion of")
+              Text("Definition of")
                     .font(.largeTitle)
                 Text("HAPPY")
                     .font(.largeTitle)

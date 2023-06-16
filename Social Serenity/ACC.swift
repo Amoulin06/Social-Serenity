@@ -13,7 +13,7 @@ struct ACC: View {
             Color("myLightRed")
                 .ignoresSafeArea()
             VStack {
-              Text("Defintion of")
+              Text("Definition of")
                     .font(.largeTitle)
                 Text("ANGRY")
                     .font(.largeTitle)
